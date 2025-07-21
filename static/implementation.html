@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Frontend</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        .api-links {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin-top: 30px;
+        }
+        .api-link {
+            padding: 15px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            text-align: center;
+            transition: background-color 0.3s;
+        }
+        .api-link:hover {
+            background-color: #0056b3;
+        }
+        .description {
+            text-align: center;
+            color: #666;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🛍️ E-Commerce Backend</h1>
+        <p class="description">
+            Welcome to the E-Commerce API backend. This is a placeholder frontend page.
+            Your Angular frontend should be built and placed in this static directory.
+        </p>
+        
+        <div class="api-links">
+            <a href="/api/docs" class="api-link">📚 API Documentation</a>
+            <a href="/api/products" class="api-link">🛒 Products API</a>
+            <a href="/api/categories" class="api-link">📂 Categories API</a>
+            <a href="/api/auth/profile" class="api-link">👤 User Profile</a>
+            <a href="/api/cart" class="api-link">🛍️ Cart API</a>
+            <a href="/api/orders" class="api-link">📦 Orders API</a>
+        </div>
+        
+        <div style="margin-top: 30px; padding: 15px; background-color: #f8f9fa; border-radius: 5px;">
+            <h3>🚀 Getting Started</h3>
+            <ol>
+                <li>Build your Angular frontend</li>
+                <li>Copy the dist files to this <code>/static</code> directory</li>
+                <li>The backend will serve your frontend at the root URL</li>
+                <li>API endpoints are available under <code>/api/*</code></li>
+            </ol>
+        </div>
+    </div>
+</body>
+</html>
