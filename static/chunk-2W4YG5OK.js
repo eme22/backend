@@ -1,1 +1,0 @@
-import{a as n}from"./chunk-6OEF5Y2I.js";import{c as o}from"./chunk-5NKQJYQU.js";import"./chunk-KL4PSEE7.js";import{C as e,V as t,q as r}from"./chunk-HE7H4WY4.js";var A=(c,m)=>{let a=t(n),i=t(o);return a.currentUser$.pipe(e(1),r(u=>u?!0:(i.navigate(["/login"]),!1)))};export{A as authGuard};
