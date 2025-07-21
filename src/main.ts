@@ -4,12 +4,7 @@ import { ValidationPipe } from '@nestjs/common';
 import { SwaggerModule, DocumentBuilder } from '@nestjs/swagger';
 import { ConfigService } from '@nestjs/config';
 import { join } from 'path';
-import {
-  ExpressAdapter,
-  NestExpressApplication,
-} from '@nestjs/platform-express';
-import { ngExpressEngine } from '@nguniversal/express-engine';
-import * as express from 'express';
+import { NestExpressApplication } from '@nestjs/platform-express';
 
 async function bootstrap() {
   const app = await NestFactory.create<NestExpressApplication>(AppModule);
