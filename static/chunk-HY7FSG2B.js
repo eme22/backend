@@ -1,1 +1,0 @@
-import{a as i}from"./chunk-H7ZTAZS3.js";import{c as a}from"./chunk-D3C3HQLZ.js";import"./chunk-TWZ67XBU.js";import{C as o,V as t,q as n}from"./chunk-J3KRFXTR.js";var d=(u,c)=>{let m=t(i),e=t(a);return m.currentUser$.pipe(o(1),n(r=>r?r.role!=="admin"&&r.role!=="vendor"?(e.navigate(["/"]),!1):!0:(e.navigate(["/login"]),!1)))};export{d as adminGuard};
