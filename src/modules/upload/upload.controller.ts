@@ -37,7 +37,7 @@ export class UploadController {
   )
   uploadFile(@UploadedFile() file: Express.Multer.File) {
     return {
-      url: `http://localhost:3000/uploads/${file.filename}`,
+      url: `https://backend-production-6d20.up.railway.app/uploads/${file.filename}`,
     };
   }
 
